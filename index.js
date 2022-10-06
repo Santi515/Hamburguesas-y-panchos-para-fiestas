@@ -13,6 +13,8 @@ let stockProductoC = 42;
 let productoCompra = prompt("Ingrese que producto quisiera comprar: \n1 - Hamburguesas \n2 - Panchos");
 let precioTotal = 0;
 
+//Todavia me falta conseguir que la consola te vuelva a pedir que ingreses la cantidad de productos que queres por 2da o 3era vez
+
 if(productoCompra.toLowerCase() == 'hamburguesas'){
     let cantidadProductoHamburguesas = prompt("Ingrese que cantidad de " + nombreProductoA + " desea comprar por favor.")
 
